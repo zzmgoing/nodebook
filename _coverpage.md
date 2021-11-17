@@ -8,6 +8,6 @@
 [Android Book](https://android.book.zzming.cn)
 [Get Started](#get_started)
 
-<!-- ![](_media/海贼王1.jpeg) -->
+<!-- ![](media/海贼王.jpeg) -->
 
 <!-- ![color](#f0f0f0) -->
