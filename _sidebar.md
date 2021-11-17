@@ -13,3 +13,4 @@
 * **Postman**
 
 * **Appium**
+* * [安装Appium](appium/安装Appium.md)
