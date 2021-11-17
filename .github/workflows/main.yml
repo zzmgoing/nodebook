@@ -13,4 +13,4 @@ jobs:
       with:
         server: byu4287180001.my3w.com/htdocs/books/node
         username: byu4287180001
-        password: ${{ secrets.android_book_ftp_pwd_zzm }}
+        password: ${{ secrets.nodebook_ftp_pwd_zzm }}
