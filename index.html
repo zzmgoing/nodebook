@@ -44,10 +44,10 @@
         autoHeader: true,
         maxLevel: 4,
         subMaxLevel: 2,
-        // loadNavbar: true,
+        loadNavbar: true,
         // mergeNavbar: true,
         auto2top: true,
-        coverpage: true,
+        // coverpage: true,
         onlyCover: false,
         // logo: 'https://img.upyun.zzming.cn/icon/nodebook.svg',
         // themeColor: '#36ab60',
@@ -62,20 +62,8 @@
             placeholder: '搜一把试试',
             noData: '怎么肥事，没有搜到',
             depth: 6
-        },
-        plugins: [
-            function (hook) {
-                var cyan = ['<div id="SOHUCS">', '</div>',
-                    '<scrip', 't src="https://img.upyun.zzming.cn/js/changyan.js">', '</scrip', 't>',
-                    '<scrip', 't src="https://img.upyun.zzming.cn/js/prism.js">', '</scrip', 't>'].join('');
-                hook.afterEach(function (html) {
-                    return html + cyan;
-                });
-            }
-        ]
+        }
     };
-
-
 </script>
 <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.js"></script>
 <script src="//unpkg.com/docsify/lib/plugins/search.js"></script>
