@@ -17,14 +17,12 @@ git -C "$(brew --repo homebrew/core)" remote set-url origin https://mirrors.ustc
 brew update
 ```
 
-**问题：**
+**问题一：**
 
-[解决Mac安装Homebrew时‘Permission denied’问题](https://www.jianshu.com/p/0353667c8f72)
+<a href="https://www.jianshu.com/p/0353667c8f72">解决Mac安装Homebrew时‘Permission denied’问题</a>
 
-**执行以下命令：**
+执行以下命令：
 ```bash
 sudo chgrp -R admin /usr/local
-```
-```bash
 sudo chmod -R g+w /usr/local
 ```
