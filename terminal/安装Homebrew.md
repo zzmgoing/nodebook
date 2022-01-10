@@ -19,7 +19,7 @@ brew update
 
 **问题一：**
 
-<a href="https://www.jianshu.com/p/0353667c8f72">解决Mac安装Homebrew时‘Permission denied’问题</a>
+<p class="warn"><a href="https://www.jianshu.com/p/0353667c8f72" target="_blank">解决Mac安装Homebrew时‘Permission denied’问题</a></p>
 
 执行以下命令：
 ```bash
