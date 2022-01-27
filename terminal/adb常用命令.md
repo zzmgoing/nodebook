@@ -34,6 +34,14 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 |获取手机内存信息|```adb shell cat /proc/meminfo```|
 |获取手机物理密度|```adb shell wm density```|
 
+**查看手机连接的Wi-Fi名称**
 
+```adb shell dumpsys netstats | grep -E 'iface=wlan.*networkId'```
 
+**Android Studio模拟器连接网络**
 
+- 执行：```adb shell```
+- 执行su：```generic_x86_arm:/ $ su```
+- 执行getprop：```generic_x86_arm:/ # getprop```
+- 找到[net.xxxx.dns1]: [10.0.2.3]
+- 执行：```setprop net.radio0.dns1 114.114.114.114```
